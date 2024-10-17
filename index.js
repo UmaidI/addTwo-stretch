@@ -1,5 +1,8 @@
 const numbers = [5,10,15,20,25];
-const numArray = numbers.map((num)=>{
+const addTwo = (numbers) =>{
+  const numbersPlusTwo = numbers.map((num)=>{
   return num + 2;
 })
-console.log(numArray);
+return numbersPlusTwo
+}
+console.log(addTwo(numbers));
